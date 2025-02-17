@@ -3,4 +3,4 @@ spring:
     driver-class-name: org.h2.Driver
     url: jdbc:h2:~/testsk
     username: sekwangoh
-    password: test1234!
+    password: '{cipher}f8120fe8d8c6dee4557e65a5f6737507bf96d26ee628b379117299420d973f8f'
