@@ -1,9 +1,12 @@
 spring:
   datasource:
-    driver-class-name: org.h2.Driver
-    url: jdbc:h2:mem:test
-    username: sa
-    password:
+    driver-class-name: org.mariadb.jdbc.Driver
+    url: jdbc:mariadb://localhost:3306/mydb
+    username: root
+    password: test1357
+    # url: jdbc:h2:mem:test
+#    username: sa
+#    password:
 #    username: sekwangoh
 #    password: '{cipher}AQCLaq/JZ3GOL6SB7Ul0PH4NMYvCN+R9NZel7vuHebIPfN8XFaNHwlwbmfxf+k3F90zNoaBIwMwnZefGHydwDgbObsCPf5WKDnA8DWomQ6W1IcfJzAU2XrAtz3vSxN620pW4LmDoWqmS2C3kPhAblBuCZS4TGN1T8kzd5ZRXrlmyQACeWKyfCz4hidsZB/LPfOuxxLpD5vZsqpeCmqwDHhsnEacZlZxThASSDRAeAN5kWIXhYSRxq9DS48q6muxkZgBHA6k4x06046jkSILmXTep/4reGFkOgQHk6Epzxw2g2r+ciJ9Z8uuwqd437qMgrKwpCfQQmU8AFUc+k35w60SM+oSfb/3r54UXTZJg+rczBDnD5Sy7AQ8y5hMUjoZDbUk='
 
